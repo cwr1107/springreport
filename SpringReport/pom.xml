@@ -49,7 +49,6 @@
 		<excel2pdf.version>2.0.0</excel2pdf.version>
 		<x-pack-sql-jdbc.version>8.14.0</x-pack-sql-jdbc.version>
 		<taos-jdbcdriver.version>3.2.11</taos-jdbcdriver.version>
-		<kingbase8.version>8.6.0</kingbase8.version>
 		<rocketmq.version>2.3.0</rocketmq.version>
 		<opencsv.version>5.9</opencsv.version>
 	</properties>
@@ -310,11 +309,6 @@
 			<groupId>com.taosdata.jdbc</groupId>
 			<artifactId>taos-jdbcdriver</artifactId>
 			<version>${taos-jdbcdriver.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.kingbase8</groupId>
-			<artifactId>kingbase8</artifactId>
-			<version>${kingbase8.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.rocketmq</groupId>
